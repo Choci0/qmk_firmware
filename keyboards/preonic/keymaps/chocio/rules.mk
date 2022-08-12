@@ -1,0 +1,1 @@
+KEY_LOVK_ENABLE = yes
