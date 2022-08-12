@@ -35,6 +35,12 @@
 #define CTL_L RALT(KC_L)
 #define CTL_W RALT(KC_W)
 
+/* Short names for media keys
+*/
+#define CTL_UP KC_KB_VOLUME_UP
+#define CTL_DOWN KC_KB_VOLUME_DOWN
+#define CTL_MUTE KC_KB_MUTE
+
 #define CTL_TAB LCTL_T(KC_TAB)
 
 /* Layer setup
@@ -65,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, XXXXXXX, CTL_Q,   CTL_O,   CTL_A,   XXXXXXX, XXXXXXX, KC_HOME, KC_UP,   KC_END,  XXXXXXX, _______,
   _______, XXXXXXX, CTL_Z,   CTL_L,   CTL_W,   XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGUP, XXXXXXX,
-  _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, _______,
+  _______, CTL_MUTE,CTL_DOWN,CTL_UP,  KC_MPLY, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, _______,
   _______, _______, _______, _______, XXXXXXX,      _______,     V_____V, XXXXXXX, XXXXXXX, XXXXXXX, _______),
 
 [FUNC_] = LAYOUT_preonic_1x2uC(
