@@ -35,20 +35,3 @@
 
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
-
-
-
-/*
- * WS2812 Underglow Matrix options
- */
-#define RGB_DI_PIN A1
-#define RGBLED_NUM 9
-#define RGBLIGHT_ANIMATIONS
-// RGB Matrix support
-#define DRIVER_LED_TOTAL RGBLED_NUM
-
-#define WS2812_PWM_DRIVER PWMD2
-#define WS2812_PWM_CHANNEL 2
-#define WS2812_PWM_PAL_MODE 1
-#define WS2812_DMA_STREAM STM32_DMA1_STREAM2
-#define WS2812_DMA_CHANNEL 2
