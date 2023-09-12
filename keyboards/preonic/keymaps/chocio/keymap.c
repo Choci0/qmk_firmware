@@ -71,13 +71,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   _______, XXXXXXX, CTL_Q,   CTL_O,   CTL_A,   XXXXXXX, XXXXXXX, KC_HOME, KC_UP,   KC_END,  XXXXXXX, _______,
   _______, XXXXXXX, CTL_Z,   CTL_L,   CTL_W,   XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGUP, XXXXXXX,
-  _______, CTL_MUTE,CTL_DOWN,CTL_UP,  KC_MPLY, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PGDN, KC_LOCK,
+  _______, XXXXXXX, CTL_MUTE,CTL_DOWN,CTL_UP,  XXXXXXX, XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, KC_PGDN, KC_LOCK,
   _______, _______, _______, _______, XXXXXXX,      _______,     V_____V, XXXXXXX, XXXXXXX, XXXXXXX, _______),
 
 [FUNC_] = LAYOUT_preonic_1x2uC(
   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
   RESET,   DEBUG,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_F9,   KC_F10,  KC_F11,  KC_F12,  XXXXXXX,
-  _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_F5,   KC_F6,   KC_F7,   KC_F8,   XXXXXXX,
+  _______, XXXXXXX, XXXXXXX, XXXXXXX, KC_WAKE, XXXXXXX, XXXXXXX, KC_F5,   KC_F6,   KC_F7,   KC_F8,   XXXXXXX,
   _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_F1,   KC_F2,   KC_F3,   KC_F4,   XXXXXXX,
   _______, _______, _______, _______, XXXXXXX,      _______,     XXXXXXX, XXXXXXX, XXXXXXX, V_____V, _______)
 };
